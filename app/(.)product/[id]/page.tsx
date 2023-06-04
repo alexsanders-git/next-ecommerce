@@ -89,7 +89,7 @@ const Modal = () => {
 												</div>
 											)}
 
-											<p className=" text-blue-600 hover:underline cursor-pointer text-xs">See all {product?.rating.count} reviews</p>
+											<p className="text-blue-600 hover:underline cursor-pointer text-xs">See all {product?.rating.count} reviews</p>
 
 										</div>
 
