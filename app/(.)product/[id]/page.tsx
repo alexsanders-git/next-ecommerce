@@ -98,10 +98,10 @@ const Modal = () => {
 									</div>
 
 									<div className="space-y-3 text-sm">
-										<button className="button w-full bg-blue-600 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black">
+										<button className="button p-3 rounded-md w-full bg-blue-600 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black">
 											Add to basket
 										</button>
-										<button onClick={() => window.location.reload()} className="button w-full bg-blue-600 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black">
+										<button onClick={() => window.location.reload()} className="button p-3 rounded-md w-full bg-blue-600 text-white border-transparent hover:border-blue-600 hover:bg-transparent hover:text-black">
 											View full details
 										</button>
 									</div>
