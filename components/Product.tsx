@@ -16,11 +16,14 @@ const Product = ({ product }: Props) => {
 				<ProductImage product={product} fill />
 			</div>
 
-			<div className="font-semibold flex flex-col items-center justify-between mt-4 mb-1">
-				<p className="mb-3">{product.title}</p>
-				<p className="mb-3">${product.price}</p>
-				<p className="italic test-xs w-64 line-clamp-2 text-gray-600">{product.description}</p>
+			<div className="font-semibold flex items-center justify-between mt-4 mb-1">
+				<p className="truncate w-44">{product.title}</p>
+				<p>${product.price}</p>
 			</div>
+
+			<p className="italic text-xs w-64 line-clamp-2 text-gray-600">
+				{product.description}
+			</p>
 		</Link>
 	);
 }
